@@ -65,3 +65,13 @@ resetBtn.addEventListener("click", () => {
   intervalId = null;
   startStopBtn.innerHTML = '<i class="fa fa-play" id="play"></i>';
 });
+
+function updateTime() {
+  const now = new Date();
+  const date = now.toLocaleDateString();
+  const time = now.toLocaleTimeString();
+  const datetimeString = `${date} ${time}`;
+  document.getElementById("datetime").textContent = datetimeString;
+}
+
+setInterval(updateTime, 1000); // update time every second
