@@ -70,7 +70,7 @@ The project was built using the following technologies:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https:)
+- [Live Demo Link](https://mussieteka.github.io/Timer-App/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
