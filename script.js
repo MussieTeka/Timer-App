@@ -66,12 +66,12 @@ resetBtn.addEventListener("click", () => {
   startStopBtn.innerHTML = '<i class="fa fa-play" id="play"></i>';
 });
 
-function updateTime() {
+function updateDateTime() {
   const now = new Date();
   const date = now.toLocaleDateString();
   const time = now.toLocaleTimeString();
   const datetimeString = `${date} ${time}`;
   document.querySelector(".datetime").textContent = datetimeString;
 }
-  
-setInterval(updateTime, 1000); // update time every second
+
+setInterval(updateDateTime, 1000); // update time every second
