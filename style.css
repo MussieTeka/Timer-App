@@ -31,7 +31,7 @@ body {
   text-shadow: 2px 2px 4px rgba(1, 1, 1, 0.5);
 }
 
-#datetime {
+.datetime {
   position: absolute;
   top: 20px;
   right: 20px;
