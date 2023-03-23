@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding-left: 0;
+}
+
 body {
   height: 100vh;
   background: url(images/timer.jpg) no-repeat center center/ cover;
@@ -16,7 +21,7 @@ body {
 
 .title {
   position: absolute;
-  top: 0;
+  top: 20px;
   left: 0;
   padding: 0px 20px;
   font-size: 48px;
@@ -24,6 +29,16 @@ body {
   font-weight: 700;
   font-family: "Arial", sans-serif;
   text-shadow: 2px 2px 4px rgba(1, 1, 1, 0.5);
+}
+
+#datetime {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 20px;
+  color: #000;
+  font-weight: 700;
+  font-family: "Arial", sans-serif;
 }
 
 #timer {
