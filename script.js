@@ -71,7 +71,7 @@ function updateTime() {
   const date = now.toLocaleDateString();
   const time = now.toLocaleTimeString();
   const datetimeString = `${date} ${time}`;
-  document.getElementById("datetime").textContent = datetimeString;
+  document.querySelector(".datetime").textContent = datetimeString;
 }
-
+  
 setInterval(updateTime, 1000); // update time every second
